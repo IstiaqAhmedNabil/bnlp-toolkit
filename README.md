@@ -1,27 +1,25 @@
-# Bangla Language Translation Toolkit
+# BNLP Toolkit: Bangla NLP Tools
 
-This project provides a simple interface for translating text between **English** and **Bangla** (EN↔BN) using pre-trained models from Hugging Face. It leverages the `transformers` library for easy integration of the MarianMT translation model.
+This project offers a user-friendly interface for performing various Bangla natural language processing (BNLP) tasks including sentiment analysis, summarization, and translation (BN→EN). It leverages pre-trained models from Hugging Face and the `transformers` library.
 
-## Features
+## ✨ Features
 
-- **English to Bangla Translation**
-- **Bangla to English Translation**
-- Pre-trained models for efficient translation
-- Easy-to-use Python functions
+- ✅ **Sentiment Analysis** for Bangla text
+- ✅ **Text Summarization** (Bangla)
+- ✅ **Bangla to English Translation**
+- ❌ *English to Bangla Translation* (coming soon)
+- 🧠 Powered by pre-trained transformer models
+- 🌐 Simple web interface using Gradio
 
-## Installation
+## 🚀 Getting Started
 
 ### Prerequisites
 
-Ensure you have Python 3.10 or later installed.
+- Python 3.10 or higher
 
-Install the required dependencies by running:
+### Installation
 
-```bash
-pip install -r requirements.txt
-
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/bnlp-toolkit.git
+   cd bnlp-toolkit
